@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>My Portfolio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+  color: #222;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background: white;
+  color: #1e3a8a;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e0e7ff;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* SECTION TITLE */
+h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background: #e0e7ff;
+  color: #1e3a8a;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* PROJECTS */
+.project {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.project:last-child {
+  border: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background: #1e3a8a;
+  color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Your Name</h1>
+  <p>BBA Finance Graduate | Aspiring Financial Analyst</p>
+  <a class="btn" href="#">Download CV</a>
+</div>
+
+<div class="container">
+
+  <!-- ABOUT -->
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      I am a motivated BBA Finance graduate with strong academic performance (GPA 3.84).
+      I am passionate about investment, banking, and financial analysis. I am a quick learner
+      and eager to contribute in a professional environment.
+    </p>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="card">
+    <h2>Education</h2>
+    <p><b>Bachelor in Business Administration (Finance)</b></p>
+    <p>Pokhara University</p>
+    <p>GPA: 3.84 (Dean’s List Holder)</p>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">Financial Analysis</div>
+      <div class="skill">Accounting</div>
+      <div class="skill">MS Excel</div>
+      <div class="skill">Communication</div>
+      <div class="skill">Critical Thinking</div>
+      <div class="skill">Fast Learner</div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="card">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <b>Financial Statement Analysis</b>
+      <p>Analyzed company financial reports and evaluated performance trends.</p>
+    </div>
+
+    <div class="project">
+      <b>Investment Study Project</b>
+      <p>Studied risk-return relationship and portfolio basics.</p>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: yourname@gmail.com</p>
+    <p>Phone: +977-XXXXXXXXX</p>
+    <p>Location: Kathmandu, Nepal</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Your Name | All Rights Reserved
+</footer>
+
+</body>
+</html>
